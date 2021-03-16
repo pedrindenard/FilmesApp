@@ -7,7 +7,7 @@
     android:id="@+id/fragment_discover_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.popular.PopularFragment">
+    tools:context=".ui.top.TopRateFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:theme="@style/Theme.Moviester"
-            app:title="@string/bar_popular"
+            app:title="@string/bar_top_rate"
             app:titleTextColor="@color/color_boulder"/>
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -33,7 +33,7 @@
             android:layout_height="match_parent">
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/popular_movie_list"
+                android:id="@+id/top_rate_movie_list"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="16dp"

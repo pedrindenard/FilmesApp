@@ -14,4 +14,18 @@
         tools:layout="@layout/fragment_popular">
     </fragment>
 
+    <fragment
+        android:id="@+id/navigation_top_rate"
+        android:name="com.app.moviester.ui.top.TopRateFragment"
+        android:label="@string/title_topRate"
+        tools:layout="@layout/fragment_top_rate">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_upComing"
+        android:name="com.app.moviester.ui.upcoming.UpComingFragment"
+        android:label="@string/title_upCominig"
+        tools:layout="@layout/fragment_up_coming">
+    </fragment>
+
 </navigation>

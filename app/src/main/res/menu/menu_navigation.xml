@@ -8,12 +8,12 @@
         android:title="@string/title_popular"/>
 
     <item
-        android:id="@+id/navigation_popular"
+        android:id="@+id/navigation_top_rate"
         android:icon="@drawable/ic_home"
-        android:title="@string/title_topRated"/>
+        android:title="@string/title_topRate"/>
 
     <item
-        android:id="@+id/navigation_popular"
+        android:id="@+id/navigation_upComing"
         android:icon="@drawable/ic_home"
-        android:title="@string/title_Popular"/>
+        android:title="@string/title_upCominig"/>
 </menu>
