@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Moviester</string>
+    <string name="title_popular">Popular</string>
+    <string name="moviester">Filmes populares</string>
+    <string name="imageview">ImageView</string>
+    <string name="title_topRated">TopRated</string>
+    <string name="title_Popular">UpComing</string>
 </resources>
