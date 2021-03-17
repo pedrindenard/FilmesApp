@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -27,33 +26,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <androidx.appcompat.widget.AppCompatRatingBar
-        android:id="@+id/movieRate"
-        style="@style/Widget.AppCompat.RatingBar.Small"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:isIndicator="true"
-        android:numStars="5"
-        android:progressBackgroundTint="@color/star_text_color"
-        android:progressTint="@color/star_color"
-        android:rating="2.35"
-        android:secondaryProgressTint="#616161"
-        android:stepSize="0.1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/item_poster" />
-
-    <TextView
-        android:id="@+id/text_release_data_movie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:textColor="@android:color/darker_gray"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="@+id/movieRate"
-        app:layout_constraintTop_toBottomOf="@+id/movieRate" />
-
     <TextView
         android:id="@+id/text_name_movie"
         android:layout_width="0dp"
@@ -66,7 +38,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_release_data_movie" />
+        app:layout_constraintTop_toBottomOf="@+id/item_poster" />
 
     <TextView
         android:id="@+id/text_description_movie"

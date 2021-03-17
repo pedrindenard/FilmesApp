@@ -8,4 +8,6 @@
     <string name="bar_upComing">Filmes por virem</string>
     <string name="image_view">ImageView</string>
     <string name="teste">TESTE</string>
+    <string name="text_play_trailer">Assistir Trailer</string>
+    <string name="text_movie_details_minutos">minutos</string>
 </resources>

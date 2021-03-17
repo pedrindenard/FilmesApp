@@ -7,25 +7,48 @@
     android:id="@+id/navigation_graphic"
     app:startDestination="@+id/navigation_popular">
 
+<!--Fragment Popular-->
     <fragment
         android:id="@+id/navigation_popular"
         android:name="com.app.moviester.ui.popular.PopularFragment"
         android:label="@string/title_popular"
         tools:layout="@layout/fragment_popular">
+        <action
+            android:id="@+id/action_navigation_popular_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
     </fragment>
 
+    <!--Fragment TopRate-->
     <fragment
         android:id="@+id/navigation_top_rate"
         android:name="com.app.moviester.ui.top.TopRateFragment"
         android:label="@string/title_topRate"
         tools:layout="@layout/fragment_top_rate">
+        <action
+            android:id="@+id/action_navigation_top_rate_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
     </fragment>
 
+    <!--Fragment UpComing-->
     <fragment
         android:id="@+id/navigation_upComing"
         android:name="com.app.moviester.ui.upcoming.UpComingFragment"
         android:label="@string/title_upCominig"
         tools:layout="@layout/fragment_up_coming">
+        <action
+            android:id="@+id/action_navigation_upComing_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
+    </fragment>
+
+    <!--Fragment Movie Details-->
+    <fragment
+        android:id="@+id/movieDetailsFragment"
+        android:name="com.app.moviester.ui.details.MovieDetailsFragment"
+        android:label="fragment_movie_detail"
+        tools:layout="@layout/fragment_movie_detail">
+        <argument
+            android:name="movie"
+            app:argType="com.app.moviester.model.Movie" />
     </fragment>
 
 </navigation>
