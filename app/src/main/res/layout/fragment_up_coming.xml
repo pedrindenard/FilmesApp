@@ -7,7 +7,7 @@
     android:id="@+id/fragment_discover_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.popular.PopularFragment">
+    tools:context=".ui.upcoming.UpComingFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:theme="@style/Theme.Moviester"
-            app:title="@string/bar_popular"
+            app:title="@string/bar_upComing"
             app:titleTextColor="@color/color_boulder"/>
     </com.google.android.material.appbar.AppBarLayout>
 

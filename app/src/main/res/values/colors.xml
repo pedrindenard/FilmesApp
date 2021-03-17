@@ -10,4 +10,7 @@
     <color name="color_boulder">#757575</color>
     <color name="color_black">#000000</color>
     <color name="color_cod_gray">#101010</color>
+    <color name="color_monza">#E50914</color>
+    <color name="star_color">#ffe400</color>
+    <color name="star_text_color">#eadfe8</color>
 </resources>
