@@ -10,4 +10,5 @@
     <string name="teste">TESTE</string>
     <string name="text_play_trailer">Assistir Trailer</string>
     <string name="text_movie_details_minutos">minutos</string>
+    <string name="title_actor">Atores</string>
 </resources>
