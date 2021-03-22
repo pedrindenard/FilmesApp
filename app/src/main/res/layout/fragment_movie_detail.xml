@@ -9,6 +9,19 @@
     android:layout_height="match_parent"
     tools:context=".ui.details.MovieDetailsFragment">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBarTitle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:menu="@menu/menu_app_bar"
+        app:titleTextColor="@color/purple_700" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
@@ -18,12 +31,15 @@
         <ImageView
             android:id="@+id/imageDetail"
             android:layout_width="0dp"
-            android:layout_height="480dp"
+            android:layout_height="500dp"
             android:contentDescription="@null"
             android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
         <View
             android:id="@+id/view"
@@ -74,7 +90,7 @@
             app:layout_constraintTop_toTopOf="@+id/text_movie_details_release_date" />
 
         <TextView
-            android:id="@+id/text_movie_details_runtime"
+            android:id="@+id/text_movie_details_runtime_mylist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
@@ -93,7 +109,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/text_movie_details_release_date"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.1"
-            app:layout_constraintStart_toEndOf="@+id/text_movie_details_runtime" />
+            app:layout_constraintStart_toEndOf="@+id/text_movie_details_runtime_mylist" />
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/imagePoster"
@@ -119,6 +135,7 @@
             android:textColor="@android:color/white"
             android:textSize="28sp"
             android:textStyle="bold"
+            android:textAlignment="gravity"
             app:layout_constraintBottom_toTopOf="@+id/text_movie_details_description"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"

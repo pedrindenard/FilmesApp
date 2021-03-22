@@ -13,4 +13,5 @@
     <color name="color_monza">#E50914</color>
     <color name="star_color">#ffe400</color>
     <color name="star_text_color">#eadfe8</color>
+    <color name="opaque">#80000000</color>
 </resources>

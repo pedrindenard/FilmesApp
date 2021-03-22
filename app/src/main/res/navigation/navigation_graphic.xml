@@ -29,15 +29,12 @@
             app:destination="@id/movieDetailsFragment" />
     </fragment>
 
-    <!--Fragment UpComing-->
+    <!--Fragment Mylist-->
     <fragment
-        android:id="@+id/navigation_upComing"
-        android:name="com.app.moviester.ui.upcoming.UpComingFragment"
-        android:label="@string/title_upCominig"
-        tools:layout="@layout/fragment_up_coming">
-        <action
-            android:id="@+id/action_navigation_upComing_to_movieDetailsFragment"
-            app:destination="@id/movieDetailsFragment" />
+        android:id="@+id/navigation_my_list"
+        android:name="com.app.moviester.ui.mylist.MyListFragment"
+        android:label="@string/title_mylist"
+        tools:layout="@layout/fragment_my_list">
     </fragment>
 
     <!--Fragment Movie Details-->

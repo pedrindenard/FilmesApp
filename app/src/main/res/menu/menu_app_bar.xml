@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_movie_to_mylist"
+        android:contentDescription="@string/add_movie_mylist"
+        android:icon="@drawable/ic_add_movie"
+        android:title="@string/add_movie_mylist"
+        app:showAsAction="always" />
+</menu>

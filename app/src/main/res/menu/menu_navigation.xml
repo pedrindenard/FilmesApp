@@ -13,7 +13,7 @@
         android:title="@string/title_topRate"/>
 
     <item
-        android:id="@+id/navigation_upComing"
+        android:id="@+id/navigation_my_list"
         android:icon="@drawable/ic_home"
-        android:title="@string/title_upCominig"/>
+        android:title="@string/title_mylist"/>
 </menu>
