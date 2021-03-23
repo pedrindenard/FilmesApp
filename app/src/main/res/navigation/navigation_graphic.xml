@@ -10,7 +10,7 @@
 <!--Fragment Popular-->
     <fragment
         android:id="@+id/navigation_popular"
-        android:name="com.app.moviester.ui.popular.PopularFragment"
+        android:name="com.app.moviester.ui.framelayout.popular.PopularFragment"
         android:label="@string/title_popular"
         tools:layout="@layout/fragment_popular">
         <action
@@ -21,7 +21,7 @@
     <!--Fragment TopRate-->
     <fragment
         android:id="@+id/navigation_top_rate"
-        android:name="com.app.moviester.ui.top.TopRateFragment"
+        android:name="com.app.moviester.ui.framelayout.top.TopRateFragment"
         android:label="@string/title_topRate"
         tools:layout="@layout/fragment_top_rate">
         <action

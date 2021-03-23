@@ -40,8 +40,18 @@
     </style>
 
     <!--CornerImageView-->
-    <style name="cornerImageView" parent="">
+    <style
+        name="cornerImageView"
+        parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">8dp</item>
+    </style>
+
+    <!--Custom Dialog-->
+    <style
+        name="CustomDialog"
+        parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 </resources>

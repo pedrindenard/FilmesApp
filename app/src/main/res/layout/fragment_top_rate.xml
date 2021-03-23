@@ -7,7 +7,7 @@
     android:id="@+id/fragment_discover_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.top.TopRateFragment">
+    tools:context=".ui.framelayout.top.TopRateFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"

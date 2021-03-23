@@ -13,7 +13,6 @@
     <string name="title_actor">Atores</string>
     <string name="text_delete">Excluir</string>
     <string name="bar_mylist">Filmes favoritos</string>
-    <string name="add_movie_mylist">Adicionar filme</string>
+    <string name="add_movie_mylist">Adicionar filme na MyList</string>
     <string name="movies_details">Detalhes do filme</string>
-    <string name="add_movie_to_mylist">Adicionar filme</string>
 </resources>
