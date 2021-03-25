@@ -3,6 +3,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -52,21 +53,22 @@
         android:id="@+id/textDeleteFavorite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="6dp"
         android:drawablePadding="4dp"
-        android:padding="8dp"
         android:text="@string/text_delete"
         android:textColor="@android:color/white"
         android:textSize="16sp"
         app:drawableEndCompat="@drawable/ic_delete"
-        app:layout_constraintBottom_toBottomOf="@+id/image_poster"
-        app:layout_constraintEnd_toEndOf="@+id/text_description_mylist" />
+        app:layout_constraintStart_toEndOf="@+id/text_movie_details_release_date_mylist"
+        app:layout_constraintTop_toBottomOf="@+id/text_description_mylist" />
 
     <androidx.appcompat.widget.AppCompatRatingBar
         android:id="@+id/text_movie_details_rate_mylist"
         style="@style/Widget.AppCompat.RatingBar.Small"
         android:layout_width="80dp"
         android:layout_height="19dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="8dp"
         android:isIndicator="true"
         android:numStars="5"
         android:progressBackgroundTint="@color/star_text_color"
@@ -74,45 +76,17 @@
         android:rating="2.35"
         android:secondaryProgressTint="#616161"
         android:stepSize="0.1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.712"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/text_description_mylist"
         app:layout_constraintTop_toBottomOf="@+id/text_description_mylist" />
 
     <TextView
         android:id="@+id/text_movie_details_release_date_mylist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginStart="8dp"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        app:layout_constraintEnd_toStartOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/text_movie_details_runtime_mylist"
-        app:layout_constraintTop_toBottomOf="@+id/text_description_mylist" />
+        app:layout_constraintStart_toEndOf="@+id/text_movie_details_rate_mylist"
+        app:layout_constraintTop_toTopOf="@+id/text_movie_details_rate_mylist" />
 
-    <TextView
-        android:id="@+id/text_movie_details_runtime_mylist"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.369"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_description_mylist" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="10dp"
-        android:text="@string/text_movie_details_minutos"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_description_mylist" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,4 +15,6 @@
     <string name="bar_mylist">Filmes favoritos</string>
     <string name="add_movie_mylist">Adicionar filme na MyList</string>
     <string name="movies_details">Detalhes do filme</string>
+    <string name="text_type_somthing">Digite algo…</string>
+    <string name="search">Pesquisar</string>
 </resources>

@@ -17,9 +17,8 @@
         android:theme="@style/Theme.Moviester">
 
         <activity
-            android:name=".ui.main.MainActivity"
-            android:label="Moviester"
-            android:theme="@style/AppTheme.ActionBar.Transparent">
+            android:name=".ui.activity.MainActivity"
+            android:label="Moviester">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

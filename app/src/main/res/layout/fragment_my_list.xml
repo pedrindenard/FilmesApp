@@ -6,11 +6,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.mylist.MyListFragment">
+    tools:context=".ui.fragment.MyListFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:layout_width="match_parent"
@@ -29,12 +30,13 @@
             android:id="@+id/list_movie_database"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:layout_marginTop="56dp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:listitem="@layout/item_mylist"/>
+            tools:listitem="@layout/item_mylist" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

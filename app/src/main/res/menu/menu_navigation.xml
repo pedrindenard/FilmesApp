@@ -13,6 +13,11 @@
         android:title="@string/title_topRate"/>
 
     <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_home"
+        android:title="@string/search"/>
+
+    <item
         android:id="@+id/navigation_my_list"
         android:icon="@drawable/ic_home"
         android:title="@string/title_mylist"/>

@@ -10,7 +10,7 @@
 <!--Fragment Popular-->
     <fragment
         android:id="@+id/navigation_popular"
-        android:name="com.app.moviester.ui.framelayout.popular.PopularFragment"
+        android:name="com.app.moviester.ui.fragment.PopularFragment"
         android:label="@string/title_popular"
         tools:layout="@layout/fragment_popular">
         <action
@@ -21,7 +21,7 @@
     <!--Fragment TopRate-->
     <fragment
         android:id="@+id/navigation_top_rate"
-        android:name="com.app.moviester.ui.framelayout.top.TopRateFragment"
+        android:name="com.app.moviester.ui.fragment.TopRateFragment"
         android:label="@string/title_topRate"
         tools:layout="@layout/fragment_top_rate">
         <action
@@ -32,7 +32,7 @@
     <!--Fragment Mylist-->
     <fragment
         android:id="@+id/navigation_my_list"
-        android:name="com.app.moviester.ui.mylist.MyListFragment"
+        android:name="com.app.moviester.ui.fragment.MyListFragment"
         android:label="@string/title_mylist"
         tools:layout="@layout/fragment_my_list">
     </fragment>
@@ -40,12 +40,22 @@
     <!--Fragment Movie Details-->
     <fragment
         android:id="@+id/movieDetailsFragment"
-        android:name="com.app.moviester.ui.details.MovieDetailsFragment"
-        android:label="fragment_movie_detail"
+        android:name="com.app.moviester.ui.fragment.MovieDetailsFragment"
         tools:layout="@layout/fragment_movie_detail">
         <argument
             android:name="movie"
-            app:argType="com.app.moviester.model.Movie" />
+            app:argType="com.app.moviester.internet.model.Movie" />
+    </fragment>
+
+    <!--Fragment Search-->
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.app.moviester.ui.fragment.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_navigation_search_to_movieDetailsFragment"
+            app:destination="@id/movieDetailsFragment" />
     </fragment>
 
 </navigation>

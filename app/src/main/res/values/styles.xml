@@ -1,12 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
-    <style
-        name="Theme.Moviester"
-        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.Moviester" parent="Theme.MaterialComponents.Light.NoActionBar">
 
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">@color/purple_700</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
 
@@ -22,36 +20,26 @@
         <item name="android:windowBackground">@android:color/black</item>
     </style>
 
-    <!-- AppBar Transparent-->
-    <style
-        name="AppTheme.ActionBar.Transparent"
-        parent="Theme.Moviester">
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="windowActionBarOverlay">true</item>
-        <item name="colorPrimary">@android:color/transparent</item>
-    </style>
-
-    <!--AppBar normal-->
-    <style
-        name="AppTheme.ActionBar"
-        parent="Theme.Moviester">
-        <item name="windowActionBarOverlay">false</item>
-        <item name="colorPrimary">@color/purple_700</item>
-    </style>
-
     <!--CornerImageView-->
-    <style
-        name="cornerImageView"
-        parent="">
+    <style name="cornerImageView" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">8dp</item>
     </style>
 
     <!--Custom Dialog-->
-    <style
-        name="CustomDialog"
-        parent="android:Theme.Dialog">
+    <style name="CustomDialog" parent="android:Theme.Dialog">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--SearchView-->
+    <style name="SearchViewTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Cor do texto digitado -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!-- Cor do texto Hint -->
+        <item name="android:textColorHint">@color/color_boulder</item>
+        <!-- Cor da linha e ícone -->
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
     </style>
 </resources>
