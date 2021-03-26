@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Moviester</string>
-    <string name="title_popular">Popular</string>
+    <string name="title_home">Home</string>
     <string name="title_topRate">TopRated</string>
     <string name="title_mylist">Filmes favoritados</string>
     <string name="bar_popular">Filmes populares</string>
@@ -17,4 +17,5 @@
     <string name="movies_details">Detalhes do filme</string>
     <string name="text_type_somthing">Digite algo…</string>
     <string name="search">Pesquisar</string>
+    <string name="search_anything">Pesquise algo…</string>
 </resources>

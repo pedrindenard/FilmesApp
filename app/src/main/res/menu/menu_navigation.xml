@@ -5,20 +5,15 @@
     <item
         android:id="@+id/navigation_popular"
         android:icon="@drawable/ic_home"
-        android:title="@string/title_popular"/>
-
-    <item
-        android:id="@+id/navigation_top_rate"
-        android:icon="@drawable/ic_home"
-        android:title="@string/title_topRate"/>
+        android:title="@string/title_home"/>
 
     <item
         android:id="@+id/navigation_search"
-        android:icon="@drawable/ic_home"
+        android:icon="@drawable/ic__search"
         android:title="@string/search"/>
 
     <item
         android:id="@+id/navigation_my_list"
-        android:icon="@drawable/ic_home"
+        android:icon="@drawable/ic_favorite"
         android:title="@string/title_mylist"/>
 </menu>

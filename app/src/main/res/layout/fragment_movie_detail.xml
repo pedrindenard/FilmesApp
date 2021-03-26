@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragment.MovieDetailsFragment">
+    tools:context=".ui.fragment.DetailsFragment">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -41,7 +41,7 @@
                 android:id="@+id/view"
                 android:layout_width="0dp"
                 android:layout_height="240dp"
-                android:background="@drawable/ic_gradient_bottom_background"
+                android:background="@drawable/ic_launcher_bottomground"
                 app:layout_constraintBottom_toBottomOf="@+id/imageDetail"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />

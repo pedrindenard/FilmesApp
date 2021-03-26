@@ -10,22 +10,11 @@
 <!--Fragment Popular-->
     <fragment
         android:id="@+id/navigation_popular"
-        android:name="com.app.moviester.ui.fragment.PopularFragment"
-        android:label="@string/title_popular"
+        android:name="com.app.moviester.ui.fragment.MovieFragment"
+        android:label="@string/title_home"
         tools:layout="@layout/fragment_popular">
         <action
             android:id="@+id/action_navigation_popular_to_movieDetailsFragment"
-            app:destination="@id/movieDetailsFragment" />
-    </fragment>
-
-    <!--Fragment TopRate-->
-    <fragment
-        android:id="@+id/navigation_top_rate"
-        android:name="com.app.moviester.ui.fragment.TopRateFragment"
-        android:label="@string/title_topRate"
-        tools:layout="@layout/fragment_top_rate">
-        <action
-            android:id="@+id/action_navigation_top_rate_to_movieDetailsFragment"
             app:destination="@id/movieDetailsFragment" />
     </fragment>
 
@@ -40,7 +29,7 @@
     <!--Fragment Movie Details-->
     <fragment
         android:id="@+id/movieDetailsFragment"
-        android:name="com.app.moviester.ui.fragment.MovieDetailsFragment"
+        android:name="com.app.moviester.ui.fragment.DetailsFragment"
         tools:layout="@layout/fragment_movie_detail">
         <argument
             android:name="movie"
