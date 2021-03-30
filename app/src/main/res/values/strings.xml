@@ -2,7 +2,7 @@
     <string name="app_name">Moviester</string>
     <string name="title_home">Home</string>
     <string name="title_topRate">TopRated</string>
-    <string name="title_mylist">Filmes favoritados</string>
+    <string name="title_mylist">My Lista</string>
     <string name="bar_popular">Filmes populares</string>
     <string name="bar_top_rate">Filmes mais avaliados</string>
     <string name="bar_upComing">Filmes por virem</string>
@@ -13,9 +13,25 @@
     <string name="title_actor">Atores</string>
     <string name="text_delete">Excluir</string>
     <string name="bar_mylist">Filmes favoritos</string>
-    <string name="add_movie_mylist">Adicionar filme na MyList</string>
     <string name="movies_details">Detalhes do filme</string>
     <string name="text_type_somthing">Digite algo…</string>
     <string name="search">Pesquisar</string>
     <string name="search_anything">Pesquise algo…</string>
+    <string name="title_1">Item 1</string>
+    <string name="title_2">Item 2</string>
+    <string name="title_3">Item 3</string>
+    <string name="subtitle">Subtitle</string>
+    <string name="item_4">Item 4</string>
+    <string name="item_5">Item 5</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="header_title">Header Title</string>
+    <string name="header_text">Header Text</string>
+    <string name="gallery_text">Galeria</string>
+    <string name="camera_text">Camera</string>
+    <string name="config_text">Configurações</string>
+    <string name="your_name">Your name</string>
+    <string name="item_6">Item 7</string>
+    <string name="item_7">Item 8</string>
+
 </resources>

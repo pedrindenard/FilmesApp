@@ -12,7 +12,7 @@
         android:id="@+id/navigation_popular"
         android:name="com.app.moviester.ui.fragment.MovieFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_popular">
+        tools:layout="@layout/fragment_movie">
         <action
             android:id="@+id/action_navigation_popular_to_movieDetailsFragment"
             app:destination="@id/movieDetailsFragment" />
@@ -30,7 +30,7 @@
     <fragment
         android:id="@+id/movieDetailsFragment"
         android:name="com.app.moviester.ui.fragment.DetailsFragment"
-        tools:layout="@layout/fragment_movie_detail">
+        tools:layout="@layout/fragment_details">
         <argument
             android:name="movie"
             app:argType="com.app.moviester.internet.model.Movie" />
