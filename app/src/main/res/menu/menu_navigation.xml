@@ -21,4 +21,9 @@
         android:icon="@drawable/ic_favorite"
         android:title="@string/title_mylist"
         app:showAsAction="ifRoom|collapseActionView" />
+
+    <item
+        android:id="@+id/navigation_maps"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:title="TODO" />
 </menu>

@@ -47,4 +47,9 @@
             app:destination="@id/movieDetailsFragment" />
     </fragment>
 
+    <fragment
+        android:id="@+id/navigation_maps"
+        android:name="com.app.moviester.ui.fragment.MapsFragment"
+        android:label="MapsFragment" />
+
 </navigation>
